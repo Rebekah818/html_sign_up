@@ -12,22 +12,41 @@
 
 <body>
     <div>
-        <div>Sign Up</div>
+        <div>
+            <h1>Sign Up</h1>
+        </div>
+
         <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="" /> <br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="" /> <br>
-            <label for="mobile">Mobile No.:</label><br>
-            <input type="text" id="mobile" number="" /> <br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="" /> <br>
-            <label for="conpassword">Confirm Password</label><br>
-            <input type="password" id="password" name="" /> <br>
+            <div class="col">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="" /> <br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="" /> <br>
+            </div>
+            <div class="row">
+                <label for="tel">Mobile No.:</label><br>
+                <input type="tel" id="tel" name="tel" /> <br>
+                <label for="email"> Email: </label> <br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="column">
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd" /> <br>
+
+                <label for="pwd">Confirm Password</label><br>
+                <input type="password" id="pwd" name="pwd" /> <br>
+            </div>
             <br>
-            <button input type="submit">Sign Up</button>
+            <div>
+                <button input type="submit">Sign Up</button>
+                <button input type="submit">Register</button>
+            </div>
+
+
+
         </form>
     </div>
 </body>
 
-</html> 
+</html>
